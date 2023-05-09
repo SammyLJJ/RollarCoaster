@@ -73,7 +73,7 @@ st.markdown('<p style="color: lightgray; text-align: justify;">'
             ' There are more features such as holding your mouse on one category and the chart will show more information.'
             ' Have fun!</p>', unsafe_allow_html=True)
 
-file_path = '/Users/sammy/Desktop/2023-1 Spring/CS 230/Project/Data/RollerCoasters-Geo.csv'
+file_path = 'RollerCoasters-Geo.csv'
 
 # Read the CSV file and convert it to a DataFrame
 df = pd.read_csv(file_path)
