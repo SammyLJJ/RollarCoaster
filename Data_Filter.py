@@ -25,7 +25,7 @@ pd.set_option('display.max_colwidth', None) # Display the full width of each col
 
 
 
-file_path = '/Users/sammy/Desktop/2023-1 Spring/CS 230/Project/Data/RollerCoasters-Geo.csv'
+file_path = 'RollerCoasters-Geo.csv'
 
 # Read the CSV file and convert it to a DataFrame
 df = pd.read_csv(file_path)
