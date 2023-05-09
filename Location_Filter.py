@@ -126,7 +126,7 @@ st.markdown('<p style="color: lightgray; text-align: justify;">The Map will show
             'If you want to let it show other information, in "Select the information you want" box, '
             'click the information you want to show on the map!</p>', unsafe_allow_html=True)
 
-data = pd.read_csv("/Users/sammy/Desktop/2023-1 Spring/CS 230/Project/Data/RollerCoasters-Geo.csv")
+data = pd.read_csv("RollerCoasters-Geo.csv")
 if selected_park_multi == []:
     data_selected = data.copy()
 else:
