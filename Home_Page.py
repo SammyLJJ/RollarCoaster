@@ -67,28 +67,6 @@ import pydeck as pdk
 
 
 
-from Data_Filter.py import page1
-from Location_Filter.py import page2
-
-PAGES = {
-    "Data Filter": page1,
-    "Location Filter": page2,
-}
-
-def main():
-    st.sidebar.title("Navigation")
-    choice = st.sidebar.selectbox("Go to", list(PAGES.keys()))
-
-    # Call the appropriate page function based on the user's selection
-    page = PAGES[choice]
-    page()
-
-if __name__ == "__main__":
-    main()
-
-
-
-
 st.markdown('<h1 style="color: lightblue; text-align: center;">Find RollarCoaster in the U.S!</h1>', unsafe_allow_html=True)
 st.markdown('<p style="color: lightgray; text-align: justify;">'
             ' In this page, you can choose columns to get information you want and download it by clicking "Press to Download".'
