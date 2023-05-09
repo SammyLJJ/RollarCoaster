@@ -10,7 +10,7 @@ st.markdown('<p style="color: lightgray; text-align: justify;">Similar to data s
             'You can search the park and rollar-coaster you want using the location including state, city, park '
             'and you can choose information you want and download it. </p>', unsafe_allow_html=True)
 
-r_file = open('/Users/sammy/Desktop/2023-1 Spring/CS 230/Project/Data/RollerCoasters-Geo.csv', 'r')
+r_file = open('RollerCoasters-Geo.csv', 'r')
 info = list(csv.reader(r_file))
 r_file.close()
 
